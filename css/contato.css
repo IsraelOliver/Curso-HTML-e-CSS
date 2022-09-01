@@ -1,0 +1,57 @@
+.corpo {
+    margin: 20px 200px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+form label, form legend {
+    display: block;
+    font-size: 20px;
+    margin: 0 0 5px;
+}
+
+.input_padrao {
+    display: block;
+    margin: 0 0 5px;
+    border-radius: 5px;
+    padding: 5px 5px;
+    width: 100%;
+}
+
+.checkbox {
+    margin: 20px 0;
+}
+
+.enviar {
+    width: 40%;
+    padding: 10px 0;
+    background: #d89d26;
+    font-size: 25px;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 5px;
+    transition: 1s all;
+    cursor: pointer;
+}
+
+.enviar:hover {
+    background: #ffac05;
+    transform: scale(1.1);
+}
+
+table {
+    margin: 20px 0 40px;
+    height: 50%;
+}
+
+thead {
+    background: #3d3d3d;
+    color: #FFFFFF;
+    font-size: 20px;
+}
+
+td, th {
+    border: 1px solid #000000;
+    padding: 15px 15px;
+}

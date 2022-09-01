@@ -1,0 +1,54 @@
+body {
+    font-family: 'Nunito', sans-serif;
+}
+
+/* css do cabeçario */
+
+header {
+    background: #CCCCCC;
+    border-bottom: 2px solid #d89d26;
+    padding: 5px; 
+}
+
+.caixa {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 250px;
+}
+
+nav {
+    right: 0;
+}
+
+nav li {
+    display: inline;
+    margin-left: 0 0 0 15px;
+}
+
+nav a {
+    color: #000000;
+    font-weight: bold;
+    font-size: 32px;
+    padding: 10px;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: 0.2s;
+}
+nav a:hover {
+    color: #d89d26;
+}
+
+/* css do rodapé */
+
+footer {
+    background: url(../img/bg.jpg);
+    border-top: 2px solid #d89d26;
+    padding: 30px;
+    text-align: center;
+}
+
+.copy {
+    color: #FFFFFF;
+    padding-top: 20px;
+}
